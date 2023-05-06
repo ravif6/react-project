@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
   }
-  to {
-    transform: rotate(360deg);
+  
+  nav {
+    background-color: rgba(182, 19, 19, 0.488);
+    padding: 16px 32px;
   }
-}
+  .header {
+    background-color: rgba(238, 141, 14, 0.384);
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -22px;
+  }
+  nav a {
+    margin-right: 16px;
+  }
+  .footer {
+    background-color: rgba(0, 0, 0, 0.486);
+    text-align: center;
+    margin-bottom: -15px;
+  
+  }
+  .body{
+    height: 100%;
+  
+  }
+  
+  /* Create a Parallax Effect */
+  
+  
+  /* First image (Logo. Full height)
+  .bgimg-1 {
+    background-image: url('/w3images/parallax1.jpg');
+    min-height: 100%;
+  }
+  
+  /* Second image (Portfolio) */
+  /* .bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+  }
+  
+  /* Third image (Contact) */
+  /* .bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+  }  */
+  
+  
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  
+  
+  
+  /* nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+  }  */
