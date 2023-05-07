@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import useSignUpForm from './CustomHooks';
 export const Contact = () => {
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
   const {inputs, handleInputChange, handleSubmit} = useSignUpForm();
     const style ={margin : '0 -16px 8px -16px'}
  return(<div className="body"> 
