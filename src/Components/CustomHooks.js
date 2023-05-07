@@ -8,7 +8,6 @@ const useSignUpForm = (callback) => {
       fetch('https://jsonplaceholder.typicode.com/users', {
   method: 'POST',
   body: JSON.stringify({
-    name: inputs['firstName']+inputs['lastName'],
     
         id: 1,
         name: inputs['firstName']+inputs['lastName'],
